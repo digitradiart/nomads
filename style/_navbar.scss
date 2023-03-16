@@ -29,10 +29,10 @@
     color: #fefefe;
     margin-left: -10px;
   }
+}
 
-  // bila di-scroll muncul backgroundnya
-  .navbar-fixed-top.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-  }
+// bila di-scroll muncul backgroundnya
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
 }

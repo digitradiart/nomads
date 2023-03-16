@@ -1,9 +1,10 @@
-@import "../vendor/scss/bootstrap.scss";
+@import "../vendor/bootstrap-5.2.3/scss/bootstrap.scss";
 
 @import "global";
 @import "fonts";
 @import "navbar";
 
 @import "pages/home";
+
 @import "components/categories";
 @import "components/products";
