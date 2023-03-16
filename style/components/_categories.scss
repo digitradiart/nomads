@@ -1,21 +1,25 @@
 .component-categories {
-  // background-color: #f4f4f4;
-  // border-radius: 8px;
-  // padding: 30px 30px 100px 30px;
-  // margin-bottom: 20px;
-  // transition: all 0.2s ease-in-out;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
 
-  // &:hover {
-  //   transform: scale(1.5);
-  //   text-decoration: none;
-  // }
+  &:hover {
+    transform: scale(1.1);
+  }
 
-  // .categories-text {
-  //   font-size: 18px;
-  //   text-align: center;
-  //   color: #0c0d36;
-  //   font-weight: normal;
-  //   margin-top: 12px;
-  // }
-  background-color: aqua;
+  .categories-text {
+    font-size: 18px;
+    text-align: center;
+    color: #0c0d36;
+    font-weight: normal;
+    margin-top: 12px;
+  }
 }
+
+// .trendCategoriesTitle {
+// color: red;
+// font-weight: 800;
+// }
