@@ -25,7 +25,24 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      transition: all 0.5s;
+      transition: all 0.5s ease;
     }
   }
+  .products-text {
+    font-weight: normal;
+    font-size: 18px;
+    color: #0c0d36;
+    margin-top: 20px;
+  }
+
+  .products-price {
+    font-weight: 500;
+    font-size: 16px;
+    color: #ff7158;
+  }
+}
+
+.titleh5 {
+  color: #ff7158;
+  font-weight: 500;
 }
