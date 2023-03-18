@@ -10820,7 +10820,7 @@ footer p {
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: #ffd6d0 !important;
+  background-color: #fcdbd6 !important;
   transition: background-color 200ms linear;
 }
 
@@ -10892,4 +10892,21 @@ footer p {
 .titleh5 {
   color: #ff7158;
   font-weight: 500;
+}
+
+.store-breadcrumbs .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+}
+.store-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.store-breadcrumbs .breadcrumb-item .active {
+  font-weight: 300;
+  color: #0c0d36;
+}
+.store-breadcrumbs a {
+  color: #979797;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
