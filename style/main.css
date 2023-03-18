@@ -10820,7 +10820,7 @@ footer p {
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: white !important;
+  background-color: #ffd6d0 !important;
   transition: background-color 200ms linear;
 }
 
