@@ -102,8 +102,8 @@
     </nav>
 
     <!-- Page Content -->
-    <!-- Breadcrumbs -->
     <div class="page-content page-cart">
+      <!-- Breadcrumbs -->
       <section
         class="store-breadcrumbs"
         data-aos="fade-down"
@@ -124,89 +124,93 @@
           </div>
         </div>
       </section>
-
-      <!-- Gallery Thumbnails -->
-      <section class="store-gallery" id="gallery">
+      <section class="store-cart">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-8" data-aos="zoom-in">
-              <transition name="slide-fade" mode="out-in">
-                <img
-                  :src="photos[activePhoto].url"
-                  :key="photos[activePhoto].id"
-                  class="w-100 main-image"
-                  alt=""
-                />
-              </transition>
+          <div class="row" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-12 table-responsive">
+              <table class="table table-borderless table-cart">
+                <thead>
+                  <tr>
+                    <th>Image</th>
+                    <th>Name &amp; Seller</th>
+                    <th>Price</th>
+                    <th>Menu</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="width: 30%">
+                      <img
+                        src="images/product-details-1.jpg"
+                        alt=""
+                        class="cart-image w-100"
+                      />
+                    </td>
+                    <td style="width: 25%">
+                      <div class="product-title">Sofa Ternyaman</div>
+                      <div class="product-subtitle">by Ayu Agustina</div>
+                    </td>
+                    <td style="width: 25%">
+                      <div class="product-title">Rp 4.300.000</div>
+                      <div class="product-subtitle">Rupiah</div>
+                    </td>
+                    <td style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart">Remove</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="width: 30%">
+                      <img
+                        src="images/product-details-2.jpg"
+                        alt=""
+                        class="cart-image w-100"
+                      />
+                    </td>
+                    <td style="width: 25%">
+                      <div class="product-title">Sofa Bagus</div>
+                      <div class="product-subtitle">by Ayu Agustina</div>
+                    </td>
+                    <td style="width: 25%">
+                      <div class="product-title">Rp 2.400.000</div>
+                      <div class="product-subtitle">Rupiah</div>
+                    </td>
+                    <td style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart">Remove</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="width: 30%">
+                      <img
+                        src="images/product-details-3.jpg"
+                        alt=""
+                        class="cart-image w-100"
+                      />
+                    </td>
+                    <td style="width: 25%">
+                      <div class="product-title">Sofa Empuk</div>
+                      <div class="product-subtitle">by Ayu Agustina</div>
+                    </td>
+                    <td style="width: 25%">
+                      <div class="product-title">Rp 2.200.000</div>
+                      <div class="product-subtitle">Rupiah</div>
+                    </td>
+                    <td style="width: 20%">
+                      <a href="#" class="btn btn-remove-cart">Remove</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-            <div class="col-lg-2">
-              <div class="row">
-                <div
-                  class="col-3 col-lg-12 mt-2 mt-lg-0"
-                  v-for="(photo, index) in photos"
-                  :key="photo.id"
-                  data-aos="zoom-in"
-                  data-aos-delay="100"
-                >
-                  <a href="#" @click="changeActive(index)">
-                    <img
-                      :src="photo.url"
-                      class="w-100 thumbnail-image"
-                      :class="{active: index == activePhoto}"
-                      alt=""
-                    />
-                  </a>
-                </div>
-              </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-delay="150">
+            <div class="col-12">
+              <hr />
             </div>
           </div>
         </div>
       </section>
-
-      <div class="store-details-container" data-aos="fade-up">
-        <section class="store-heading">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8">
-                <h1>Sofa Ternyaman</h1>
-                <div class="owner">By Ayu Agustina</div>
-                <div class="price">Rp 2.400.000</div>
-              </div>
-
-              <div class="col-lg-2">
-                <a
-                  href="cart.html"
-                  class="btn btn-success text-white px-4 mt-3 mb-3 btn-block"
-                  >Add to Cart</a
-                >
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="store-description">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-lg-8">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dicta aspernatur commodi voluptate minus, quam maiores odit
-                  perspiciatis necessitatibus perferendis dignissimos quibusdam
-                  saepe eos autem architecto corrupti consequatur,
-                  exercitationem quod? Libero!
-                </p>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Officiis, voluptas et. Atque doloribus cumque voluptatibus,
-                  esse molestiae ad dolorem maiores quidem consequuntur illum
-                  exercitationem sapiente vel commodi repellat ducimus
-                  laboriosam.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
     </div>
 
     <!-- Footer -->

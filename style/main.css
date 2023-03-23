@@ -10903,6 +10903,45 @@ footer p {
   color: #0c0d36;
   margin-top: 18px;
 }
+.store-cart .product-title {
+  font-size: 18px;
+  color: #0c0d36;
+  margin-top: 16px;
+}
+.store-cart .product-subtitle {
+  font-size: 14px;
+  color: #979797;
+}
+.store-cart .table-cart {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.store-cart .table-cart th {
+  font-weight: 500;
+  color: #ff7158;
+  font-size: 18px;
+}
+.store-cart .table-cart .cart-image {
+  border-radius: 10px;
+}
+.store-cart .table-cart .btn-remove-cart {
+  margin-top: 18px;
+  --bs-btn-color: #000;
+  --bs-btn-bg: #ff7158;
+  --bs-btn-border-color: transparent;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #ff8671;
+  --bs-btn-hover-border-color: rgba(255, 255, 255, 0.1);
+  --bs-btn-focus-shadow-rgb: 0, 0, 0;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #ff8d79;
+  --bs-btn-active-border-color: rgba(255, 255, 255, 0.1);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #ff7158;
+  --bs-btn-disabled-border-color: transparent;
+  color: white;
+}
 
 .component-categories {
   background-color: #f4f4f4;
