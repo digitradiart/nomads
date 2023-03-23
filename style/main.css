@@ -10897,6 +10897,13 @@ footer p {
   color: #525252;
 }
 
+.store-cart h2, .store-cart .h2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #0c0d36;
+  margin-top: 18px;
+}
+
 .component-categories {
   background-color: #f4f4f4;
   border-radius: 8px;
