@@ -10940,6 +10940,9 @@ footer p {
   --bs-btn-disabled-border-color: transparent;
   color: white;
 }
+.store-cart .form-group {
+  margin-bottom: 20px;
+}
 
 .component-categories {
   background-color: #f4f4f4;
