@@ -10835,6 +10835,11 @@ footer p {
   margin-top: 10px;
 }
 
+.page-details h5, .page-details .h5 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #525252;
+}
 .page-details .store-gallery {
   margin-top: 10px;
 }
@@ -10855,7 +10860,7 @@ footer p {
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
-  color: #0c0d36;
+  color: #ff7158;
   margin-bottom: 0;
 }
 .page-details .store-heading .owner {
@@ -10876,6 +10881,19 @@ footer p {
   font-weight: normal;
   font-size: 16px;
   line-height: 200%;
+  color: #525252;
+}
+.page-details .store-review h5, .page-details .store-review .h5 {
+  color: #ff7158;
+}
+.page-details .store-review .media img {
+  width: 56px;
+  height: 56px;
+}
+.page-details .store-review .media-body {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 180%;
   color: #525252;
 }
 
