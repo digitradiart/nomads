@@ -1,0 +1,19 @@
+.page-details {
+  .store-gallery {
+    margin-top: 10px;
+
+    img {
+      border-radius: 10px;
+    }
+
+    .thumbnail-image {
+      margin-bottom: 15px;
+      border: 3px solid transparent;
+
+      &:hover,
+      &:active {
+        border: 3px solid #ff7158;
+      }
+    }
+  }
+}

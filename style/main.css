@@ -10835,6 +10835,20 @@ footer p {
   margin-top: 10px;
 }
 
+.page-details .store-gallery {
+  margin-top: 10px;
+}
+.page-details .store-gallery img {
+  border-radius: 10px;
+}
+.page-details .store-gallery .thumbnail-image {
+  margin-bottom: 15px;
+  border: 3px solid transparent;
+}
+.page-details .store-gallery .thumbnail-image:hover, .page-details .store-gallery .thumbnail-image:active {
+  border: 3px solid #ff7158;
+}
+
 .component-categories {
   background-color: #f4f4f4;
   border-radius: 8px;
@@ -10909,4 +10923,18 @@ footer p {
 .store-breadcrumbs a {
   color: #979797;
   text-decoration: none;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.2s ease;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.1s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(-10px);
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */
