@@ -10923,6 +10923,8 @@ footer p {
 }
 .store-cart .table-cart .cart-image {
   border-radius: 10px;
+  min-width: 200px;
+  height: auto;
 }
 .store-cart .table-cart .btn-remove-cart {
   margin-top: 18px;
